@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: roboto;
+  margin: 0;
+  background-color: rgb(2, 28, 51);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div .MuiLinearProgress-root {
+  height: 10px;
+}
+
+div .MuiButtonBase-root {
+  margin: 10px;
+}
+
+div .MuiButtonBase-root:disabled {
+  cursor: not-allowed;
+  pointer-events: auto;
+  color: #80808066;
+  border: 1px solid #80808066;
+}
+
+div textarea {
+  border: 2px solid pink;
+  width: 50vw;
+  min-height: 10vh;
+  padding: 10px;
+}
+
+div .MuiSelect-select {
+  width: 40vw;
+  max-width: 200px;
+  padding: 5px;
+  background-color: white;
+}
+
+.card {
+  background-color: slategray;
+  border-radius: 10px;
+  margin: 10px;
+  width: 60vw;
+  min-height: 200px;
+}
+
+.card-wrapper {
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.question {
+  font-size: 20px;
+  color: white;
+  margin: 10px;
+}
+
+.question-number {
+  font-size: 15px;
+  color: white;
+  margin-left: 10px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.white {
+  color: white;
+}
