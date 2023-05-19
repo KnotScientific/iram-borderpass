@@ -13,9 +13,7 @@ const Text = ({ id, answers, setInput }: FieldPropsInterface) => {
   }, []);
 
   return (
-    <textarea onChange={handleChange} rows={4} cols={50}>
-      {textValue}
-    </textarea>
+    <textarea onChange={handleChange} rows={4} cols={50} value={textValue} />
   );
 };
 

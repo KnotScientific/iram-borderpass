@@ -7,7 +7,7 @@ const Submission = ({ data, answers }: SubmissionPropsInterface) => {
         <div className="card-wrapper">
           <p className="center question">Thanks for Submitting</p>
           {data.map((value, ix) => (
-            <div className="m-10">
+            <div key={ix+""+value.id} className="m-10">
               <p className="m-0">
                 Q{ix + 1}. {value.question}
               </p>

@@ -34,3 +34,8 @@ export interface SubmissionPropsInterface {
   data: DataInterface[];
   answers: AnswersInterface;
 }
+
+export interface ErrorBannerPropsInterface {
+  message: string;
+  onClick: () => void
+}
